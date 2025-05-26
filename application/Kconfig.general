@@ -15,7 +15,7 @@ menu "Enabled PCIe controllers"
 
 config ENABLE_PCIE_CTRL_0
 	bool "Use PCIe controller 0"
-	default n
+	default y
 		depends on USE_PCIE
 	help
                 This feature enables PCIe Controller 0.
@@ -25,7 +25,7 @@ config ENABLE_PCIE_CTRL_0
 
 config ENABLE_PCIE_CTRL_1
 	bool "Use PCIe controller 1"
-	default n
+	default y
 		depends on USE_PCIE
 	help
                 This feature enables PCIe Controller 1.
